@@ -1,0 +1,36 @@
+-------------------------------------------------------------------------------
+Test set: org.retail.com.TestRunner.runCucumberTest
+-------------------------------------------------------------------------------
+Tests run: 5, Failures: 4, Errors: 0, Skipped: 0, Time elapsed: 116.143 sec <<< FAILURE!
+TC_01: To verify if an Expensive Deluxe Room can be booked #1(Verify a Booking can be made and validate booking message)  Time elapsed: 25.839 sec  <<< FAILURE!
+java.lang.AssertionError: Deluxe Appartment is not Available for the selected Booking Date: 08-10-2022Expected condition failed: waiting for visibility of Proxy element for: DefaultElementLocator 'By.xpath: //h2[contains(text(),'Deluxe')]//following::table//h4[contains(text(),'Rack Rate Standard')]//following::span/a' (tried for 10 second(s) with 500 milliseconds interval)
+	at org.junit.Assert.fail(Assert.java:89)
+	at org.retail.com.Pages.BasePage.logFail(BasePage.java:42)
+	at org.retail.com.Pages.HomePage.selectRoomType(HomePage.java:123)
+	at org.retail.com.StepDefinitions.MyStepdefs.userSelectsUnderDeluxeApartmentSelectTheMostExpensivePackage(MyStepdefs.java:27)
+	at ✽.user selects Under Deluxe Apartment, select the most expensive package(file:///C:/Users/Sivaprakash.R/IdeaProjects/Testproj/src/test/resources/org/retail/com/Features/Login.feature:9)
+
+TC_01: To verify if an Expensive Deluxe Room can be booked #2(Verify a Booking can be made and validate booking message)  Time elapsed: 22.976 sec  <<< FAILURE!
+java.lang.AssertionError: Deluxe Appartment is not Available for the selected Booking Date: 06-11-2022Expected condition failed: waiting for visibility of Proxy element for: DefaultElementLocator 'By.xpath: //h2[contains(text(),'Deluxe')]//following::table//h4[contains(text(),'Rack Rate Standard')]//following::span/a' (tried for 10 second(s) with 500 milliseconds interval)
+	at org.junit.Assert.fail(Assert.java:89)
+	at org.retail.com.Pages.BasePage.logFail(BasePage.java:42)
+	at org.retail.com.Pages.HomePage.selectRoomType(HomePage.java:123)
+	at org.retail.com.StepDefinitions.MyStepdefs.userSelectsUnderDeluxeApartmentSelectTheMostExpensivePackage(MyStepdefs.java:27)
+	at ✽.user selects Under Deluxe Apartment, select the most expensive package(file:///C:/Users/Sivaprakash.R/IdeaProjects/Testproj/src/test/resources/org/retail/com/Features/Login.feature:9)
+
+TC_01: To verify if an Expensive Deluxe Room can be booked #3(Verify a Booking can be made and validate booking message)  Time elapsed: 23.224 sec  <<< FAILURE!
+java.lang.AssertionError: Deluxe Appartment is not Available for the selected Booking Date: 06-12-2022Expected condition failed: waiting for visibility of Proxy element for: DefaultElementLocator 'By.xpath: //h2[contains(text(),'Deluxe')]//following::table//h4[contains(text(),'Rack Rate Standard')]//following::span/a' (tried for 10 second(s) with 500 milliseconds interval)
+	at org.junit.Assert.fail(Assert.java:89)
+	at org.retail.com.Pages.BasePage.logFail(BasePage.java:42)
+	at org.retail.com.Pages.HomePage.selectRoomType(HomePage.java:123)
+	at org.retail.com.StepDefinitions.MyStepdefs.userSelectsUnderDeluxeApartmentSelectTheMostExpensivePackage(MyStepdefs.java:27)
+	at ✽.user selects Under Deluxe Apartment, select the most expensive package(file:///C:/Users/Sivaprakash.R/IdeaProjects/Testproj/src/test/resources/org/retail/com/Features/Login.feature:9)
+
+TC_01: To verify if an Expensive Deluxe Room can be booked #4(Verify a Booking can be made and validate booking message)  Time elapsed: 22.385 sec  <<< FAILURE!
+java.lang.AssertionError: Deluxe Appartment is not Available for the selected Booking Date: 15-01-2023Expected condition failed: waiting for visibility of Proxy element for: DefaultElementLocator 'By.xpath: //h2[contains(text(),'Deluxe')]//following::table//h4[contains(text(),'Rack Rate Standard')]//following::span/a' (tried for 10 second(s) with 500 milliseconds interval)
+	at org.junit.Assert.fail(Assert.java:89)
+	at org.retail.com.Pages.BasePage.logFail(BasePage.java:42)
+	at org.retail.com.Pages.HomePage.selectRoomType(HomePage.java:123)
+	at org.retail.com.StepDefinitions.MyStepdefs.userSelectsUnderDeluxeApartmentSelectTheMostExpensivePackage(MyStepdefs.java:27)
+	at ✽.user selects Under Deluxe Apartment, select the most expensive package(file:///C:/Users/Sivaprakash.R/IdeaProjects/Testproj/src/test/resources/org/retail/com/Features/Login.feature:9)
+

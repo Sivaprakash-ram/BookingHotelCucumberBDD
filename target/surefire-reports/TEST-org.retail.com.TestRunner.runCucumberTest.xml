@@ -1,0 +1,304 @@
+<?xml version="1.0" encoding="UTF-8" ?>
+<testsuite tests="5" failures="4" name="org.retail.com.TestRunner.runCucumberTest" time="115.3" errors="0" skipped="0">
+  <properties>
+    <property name="java.runtime.name" value="Java(TM) SE Runtime Environment"/>
+    <property name="java.vm.version" value="18.0.2.1+1-1"/>
+    <property name="sun.boot.library.path" value="C:\Program Files\Java\jdk-18.0.2.1\bin"/>
+    <property name="maven.multiModuleProjectDirectory" value="C:\Users\Sivaprakash.R\IdeaProjects\Testproj"/>
+    <property name="java.vm.vendor" value="Oracle Corporation"/>
+    <property name="java.vendor.url" value="https://java.oracle.com/"/>
+    <property name="guice.disable.misplaced.annotation.check" value="true"/>
+    <property name="path.separator" value=";"/>
+    <property name="java.vm.name" value="Java HotSpot(TM) 64-Bit Server VM"/>
+    <property name="sun.os.patch.level" value=""/>
+    <property name="user.script" value=""/>
+    <property name="user.country" value="GB"/>
+    <property name="sun.java.launcher" value="SUN_STANDARD"/>
+    <property name="java.vm.specification.name" value="Java Virtual Machine Specification"/>
+    <property name="user.dir" value="C:\Users\Sivaprakash.R\IdeaProjects\Testproj"/>
+    <property name="java.vm.compressedOopsMode" value="Zero based"/>
+    <property name="java.runtime.version" value="18.0.2.1+1-1"/>
+    <property name="os.arch" value="amd64"/>
+    <property name="java.io.tmpdir" value="C:\Users\SIVAPR~1.R\AppData\Local\Temp\"/>
+    <property name="line.separator" value="
+"/>
+    <property name="java.vm.specification.vendor" value="Oracle Corporation"/>
+    <property name="user.variant" value=""/>
+    <property name="os.name" value="Windows 10"/>
+    <property name="classworlds.conf" value="C:\Users\Sivaprakash.R\Downloads\apache-maven-3.8.6-bin\apache-maven-3.8.6\bin\m2.conf"/>
+    <property name="sun.jnu.encoding" value="Cp1252"/>
+    <property name="java.library.path" value="C:\Program Files\Java\jdk-18.0.2.1\bin;C:\Windows\Sun\Java\bin;C:\Windows\system32;C:\Windows;C:\Program Files\Common Files\Oracle\Java\javapath;C:\Program Files (x86)\Common Files\Oracle\Java\javapath;C:\Windows\system32;C:\Windows;C:\Windows\System32\Wbem;C:\Windows\System32\WindowsPowerShell\v1.0\;C:\Windows\System32\OpenSSH\;C:\Users\Sivaprakash.R\Downloads\apache-maven-3.8.6-bin\apache-maven-3.8.6\bin;C:\Users\Sivaprakash.R\AppData\Local\Microsoft\WindowsApps;;."/>
+    <property name="maven.conf" value="C:\Users\Sivaprakash.R\Downloads\apache-maven-3.8.6-bin\apache-maven-3.8.6/conf"/>
+    <property name="jdk.debug" value="release"/>
+    <property name="java.class.version" value="62.0"/>
+    <property name="java.specification.name" value="Java Platform API Specification"/>
+    <property name="sun.management.compiler" value="HotSpot 64-Bit Tiered Compilers"/>
+    <property name="os.version" value="10.0"/>
+    <property name="library.jansi.path" value="C:\Users\Sivaprakash.R\Downloads\apache-maven-3.8.6-bin\apache-maven-3.8.6\lib\jansi-native"/>
+    <property name="user.home" value="C:\Users\Sivaprakash.R"/>
+    <property name="user.timezone" value="Europe/London"/>
+    <property name="file.encoding" value="UTF-8"/>
+    <property name="java.specification.version" value="18"/>
+    <property name="user.name" value="Sivaprakash.R"/>
+    <property name="java.class.path" value="C:\Users\Sivaprakash.R\Downloads\apache-maven-3.8.6-bin\apache-maven-3.8.6\boot\plexus-classworlds-2.6.0.jar"/>
+    <property name="java.vm.specification.version" value="18"/>
+    <property name="sun.arch.data.model" value="64"/>
+    <property name="sun.java.command" value="org.codehaus.plexus.classworlds.launcher.Launcher test"/>
+    <property name="java.home" value="C:\Program Files\Java\jdk-18.0.2.1"/>
+    <property name="user.language" value="en"/>
+    <property name="java.specification.vendor" value="Oracle Corporation"/>
+    <property name="java.vm.info" value="mixed mode, sharing"/>
+    <property name="java.version" value="18.0.2.1"/>
+    <property name="native.encoding" value="Cp1252"/>
+    <property name="java.vendor" value="Oracle Corporation"/>
+    <property name="sun.stderr.encoding" value="cp437"/>
+    <property name="maven.home" value="C:\Users\Sivaprakash.R\Downloads\apache-maven-3.8.6-bin\apache-maven-3.8.6"/>
+    <property name="file.separator" value="\"/>
+    <property name="java.version.date" value="2022-08-18"/>
+    <property name="java.vendor.url.bug" value="https://bugreport.java.com/bugreport/"/>
+    <property name="sun.io.unicode.encoding" value="UnicodeLittle"/>
+    <property name="sun.cpu.endian" value="little"/>
+    <property name="sun.stdout.encoding" value="cp437"/>
+    <property name="sun.cpu.isalist" value="amd64"/>
+  </properties>
+  <testcase classname="Verify a Booking can be made and validate booking message" name="TC_01: To verify if an Expensive Deluxe Room can be booked #1" time="25.839">
+    <failure message="Deluxe Appartment is not Available for the selected Booking Date: 08-10-2022Expected condition failed: waiting for visibility of Proxy element for: DefaultElementLocator &apos;By.xpath: //h2[contains(text(),&apos;Deluxe&apos;)]//following::table//h4[contains(text(),&apos;Rack Rate Standard&apos;)]//following::span/a&apos; (tried for 10 second(s) with 500 milliseconds interval)" type="java.lang.AssertionError">java.lang.AssertionError: Deluxe Appartment is not Available for the selected Booking Date: 08-10-2022Expected condition failed: waiting for visibility of Proxy element for: DefaultElementLocator &apos;By.xpath: //h2[contains(text(),&apos;Deluxe&apos;)]//following::table//h4[contains(text(),&apos;Rack Rate Standard&apos;)]//following::span/a&apos; (tried for 10 second(s) with 500 milliseconds interval)
+	at org.junit.Assert.fail(Assert.java:89)
+	at org.retail.com.Pages.BasePage.logFail(BasePage.java:42)
+	at org.retail.com.Pages.HomePage.selectRoomType(HomePage.java:123)
+	at org.retail.com.StepDefinitions.MyStepdefs.userSelectsUnderDeluxeApartmentSelectTheMostExpensivePackage(MyStepdefs.java:27)
+	at ✽.user selects Under Deluxe Apartment, select the most expensive package(file:///C:/Users/Sivaprakash.R/IdeaProjects/Testproj/src/test/resources/org/retail/com/Features/Login.feature:9)
+</failure>
+    <system-out>
+@UITest @testcaseID=TC_01
+Scenario Outline: TC_01: To verify if an Expensive Deluxe Room can be booked                                   &amp;#27;[90m# src/test/resources/org/retail/com/Features/Login.feature:18&amp;#27;[0m
+
+    Embedding Application URL is launched [text/plain 27 bytes]
+
+  &amp;#27;[32mGiven &amp;#27;[0m&amp;#27;[32muser navigates to the login page&amp;#27;[0m                                                                       &amp;#27;[90m# org.retail.com.StepDefinitions.MyStepdefs.user_navigates_to_the_login_page()&amp;#27;[0m
+08-10-2022 is the Booking Date
+
+    Embedding Booking Date is: 08-10-2022 [text/plain 27 bytes]
+
+  &amp;#27;[32mAnd &amp;#27;[0m&amp;#27;[32muser selects future date days &amp;#27;[0m&amp;#27;[32m&amp;#27;[1m&quot;01&quot;&amp;#27;[0m&amp;#27;[32m, and number of rooms and start the booking process&amp;#27;[0m                    &amp;#27;[90m# org.retail.com.StepDefinitions.MyStepdefs.userSelectAValidDateAndNumberOfRoomsAndStartTheBookingProcess(java.lang.String)&amp;#27;[0m
+Deluxe Appartment is not Available for the selected Booking Date
+
+    Embedding Deluxe Appartment is not Available for the selected Booking Date: 08-10-2022Expected condition failed: waiting for visibility of Proxy element for: DefaultElementLocator &apos;By.xpath: //h2[contains(text(),&apos;Deluxe&apos;)]//following::table//h4[contains(text(),&apos;Rack Rate Standard&apos;)]//following::span/a&apos; (tried for 10 second(s) with 500 milliseconds interval) [text/plain 349 bytes]
+
+
+    Embedding Failed Screenshot [image/png 1438759 bytes]
+
+  &amp;#27;[31mAnd &amp;#27;[0m&amp;#27;[31muser selects Under Deluxe Apartment, select the most expensive package&amp;#27;[0m                                   &amp;#27;[90m# org.retail.com.StepDefinitions.MyStepdefs.userSelectsUnderDeluxeApartmentSelectTheMostExpensivePackage()&amp;#27;[0m
+      &amp;#27;[31mjava.lang.AssertionError: Deluxe Appartment is not Available for the selected Booking Date: 08-10-2022Expected condition failed: waiting for visibility of Proxy element for: DefaultElementLocator &apos;By.xpath: //h2[contains(text(),&apos;Deluxe&apos;)]//following::table//h4[contains(text(),&apos;Rack Rate Standard&apos;)]//following::span/a&apos; (tried for 10 second(s) with 500 milliseconds interval)
+	at org.junit.Assert.fail(Assert.java:89)
+	at org.retail.com.Pages.BasePage.logFail(BasePage.java:42)
+	at org.retail.com.Pages.HomePage.selectRoomType(HomePage.java:123)
+	at org.retail.com.StepDefinitions.MyStepdefs.userSelectsUnderDeluxeApartmentSelectTheMostExpensivePackage(MyStepdefs.java:27)
+	at ✽.user selects Under Deluxe Apartment, select the most expensive package(file:///C:/Users/Sivaprakash.R/IdeaProjects/Testproj/src/test/resources/org/retail/com/Features/Login.feature:9)
+&amp;#27;[0m
+  &amp;#27;[36mAnd &amp;#27;[0m&amp;#27;[36muser selects any &amp;#27;[0m&amp;#27;[36m&amp;#27;[1m2&amp;#27;[0m&amp;#27;[36m add ons&amp;#27;[0m                                                                               &amp;#27;[90m# org.retail.com.StepDefinitions.MyStepdefs.userSelectsAnyAddOns(int)&amp;#27;[0m
+  &amp;#27;[36mAnd &amp;#27;[0m&amp;#27;[36muser validates all details – Date, no of nights, room type, rate, add on (extra services charges), total&amp;#27;[0m &amp;#27;[90m# org.retail.com.StepDefinitions.MyStepdefs.userValidatesAllDetailsDateNoOfNightsRoomTypeRateAddOnExtraServicesChargesTotal()&amp;#27;[0m
+  &amp;#27;[36mAnd &amp;#27;[0m&amp;#27;[36muser adds traveler details and payment method to CC&amp;#27;[0m                                                      &amp;#27;[90m# org.retail.com.StepDefinitions.MyStepdefs.userAddsTravelerDetailsAndPaymentMethodToCC()&amp;#27;[0m
+  &amp;#27;[36mWhen &amp;#27;[0m&amp;#27;[36muser uses a dummy Visa CC and complete payment&amp;#27;[0m                                                          &amp;#27;[90m# org.retail.com.StepDefinitions.MyStepdefs.userUsesADummyVisaCCAndCompletePayment()&amp;#27;[0m
+  &amp;#27;[36mThen &amp;#27;[0m&amp;#27;[36muser validates Booking complete msg&amp;#27;[0m                                                                     &amp;#27;[90m# org.retail.com.StepDefinitions.MyStepdefs.userValidatesBookingCompleteMsg()&amp;#27;[0m
+
+    Embedding _T_C___0_1_:_ _T_o_ _v_e_r_i_f_y_ _i_f_ _a_n_ _E_x_p_e_n_s_i_v_e_ _D_e_l_u_x_e_ _R_o_o_m_ _c_a_n_ _b_e_ _b_o_o_k_e_d_ [image/png 1438759 bytes]
+
+</system-out>
+    <system-err>SLF4J: Failed to load class &quot;org.slf4j.impl.StaticLoggerBinder&quot;.
+SLF4J: Defaulting to no-operation (NOP) logger implementation
+SLF4J: See http://www.slf4j.org/codes.html#StaticLoggerBinder for further details.
+Starting Microsoft Edge WebDriver 105.0.1343.53 (3a47f00402d579c8ba1fad7e143f9d73831b6765) on port 64237
+To submit feedback, report a bug, or suggest new features, please visit https://github.com/MicrosoftEdge/EdgeWebDriver
+
+Only local connections are allowed.
+Please see https://aka.ms/WebDriverSecurity for suggestions on keeping Microsoft Edge WebDriver safe.
+
+Microsoft Edge WebDriver was started successfully.
+Oct 07, 2022 12:25:35 PM org.openqa.selenium.remote.ProtocolHandshake createSession
+INFO: Detected upstream dialect: W3C
+Oct 07, 2022 12:25:35 PM org.openqa.selenium.devtools.CdpVersionFinder findNearestMatch
+WARNING: Unable to find an exact match for CDP version 105, so returning the closest version found: 104
+Oct 07, 2022 12:25:35 PM org.openqa.selenium.devtools.CdpVersionFinder findNearestMatch
+INFO: Found CDP implementation for version 105 of 104
+</system-err>
+  </testcase>
+  <testcase classname="Verify a Booking can be made and validate booking message" name="TC_01: To verify if an Expensive Deluxe Room can be booked #2" time="22.976">
+    <failure message="Deluxe Appartment is not Available for the selected Booking Date: 06-11-2022Expected condition failed: waiting for visibility of Proxy element for: DefaultElementLocator &apos;By.xpath: //h2[contains(text(),&apos;Deluxe&apos;)]//following::table//h4[contains(text(),&apos;Rack Rate Standard&apos;)]//following::span/a&apos; (tried for 10 second(s) with 500 milliseconds interval)" type="java.lang.AssertionError">java.lang.AssertionError: Deluxe Appartment is not Available for the selected Booking Date: 06-11-2022Expected condition failed: waiting for visibility of Proxy element for: DefaultElementLocator &apos;By.xpath: //h2[contains(text(),&apos;Deluxe&apos;)]//following::table//h4[contains(text(),&apos;Rack Rate Standard&apos;)]//following::span/a&apos; (tried for 10 second(s) with 500 milliseconds interval)
+	at org.junit.Assert.fail(Assert.java:89)
+	at org.retail.com.Pages.BasePage.logFail(BasePage.java:42)
+	at org.retail.com.Pages.HomePage.selectRoomType(HomePage.java:123)
+	at org.retail.com.StepDefinitions.MyStepdefs.userSelectsUnderDeluxeApartmentSelectTheMostExpensivePackage(MyStepdefs.java:27)
+	at ✽.user selects Under Deluxe Apartment, select the most expensive package(file:///C:/Users/Sivaprakash.R/IdeaProjects/Testproj/src/test/resources/org/retail/com/Features/Login.feature:9)
+</failure>
+    <system-out>
+@UITest @testcaseID=TC_01
+Scenario Outline: TC_01: To verify if an Expensive Deluxe Room can be booked                                   &amp;#27;[90m# src/test/resources/org/retail/com/Features/Login.feature:19&amp;#27;[0m
+
+    Embedding Application URL is launched [text/plain 27 bytes]
+
+  &amp;#27;[32mGiven &amp;#27;[0m&amp;#27;[32muser navigates to the login page&amp;#27;[0m                                                                       &amp;#27;[90m# org.retail.com.StepDefinitions.MyStepdefs.user_navigates_to_the_login_page()&amp;#27;[0m
+06-11-2022 is the Booking Date
+
+    Embedding Booking Date is: 06-11-2022 [text/plain 27 bytes]
+
+  &amp;#27;[32mAnd &amp;#27;[0m&amp;#27;[32muser selects future date days &amp;#27;[0m&amp;#27;[32m&amp;#27;[1m&quot;30&quot;&amp;#27;[0m&amp;#27;[32m, and number of rooms and start the booking process&amp;#27;[0m                    &amp;#27;[90m# org.retail.com.StepDefinitions.MyStepdefs.userSelectAValidDateAndNumberOfRoomsAndStartTheBookingProcess(java.lang.String)&amp;#27;[0m
+Deluxe Appartment is not Available for the selected Booking Date
+
+    Embedding Deluxe Appartment is not Available for the selected Booking Date: 06-11-2022Expected condition failed: waiting for visibility of Proxy element for: DefaultElementLocator &apos;By.xpath: //h2[contains(text(),&apos;Deluxe&apos;)]//following::table//h4[contains(text(),&apos;Rack Rate Standard&apos;)]//following::span/a&apos; (tried for 10 second(s) with 500 milliseconds interval) [text/plain 349 bytes]
+
+
+    Embedding Failed Screenshot [image/png 1438759 bytes]
+
+  &amp;#27;[31mAnd &amp;#27;[0m&amp;#27;[31muser selects Under Deluxe Apartment, select the most expensive package&amp;#27;[0m                                   &amp;#27;[90m# org.retail.com.StepDefinitions.MyStepdefs.userSelectsUnderDeluxeApartmentSelectTheMostExpensivePackage()&amp;#27;[0m
+      &amp;#27;[31mjava.lang.AssertionError: Deluxe Appartment is not Available for the selected Booking Date: 06-11-2022Expected condition failed: waiting for visibility of Proxy element for: DefaultElementLocator &apos;By.xpath: //h2[contains(text(),&apos;Deluxe&apos;)]//following::table//h4[contains(text(),&apos;Rack Rate Standard&apos;)]//following::span/a&apos; (tried for 10 second(s) with 500 milliseconds interval)
+	at org.junit.Assert.fail(Assert.java:89)
+	at org.retail.com.Pages.BasePage.logFail(BasePage.java:42)
+	at org.retail.com.Pages.HomePage.selectRoomType(HomePage.java:123)
+	at org.retail.com.StepDefinitions.MyStepdefs.userSelectsUnderDeluxeApartmentSelectTheMostExpensivePackage(MyStepdefs.java:27)
+	at ✽.user selects Under Deluxe Apartment, select the most expensive package(file:///C:/Users/Sivaprakash.R/IdeaProjects/Testproj/src/test/resources/org/retail/com/Features/Login.feature:9)
+&amp;#27;[0m
+  &amp;#27;[36mAnd &amp;#27;[0m&amp;#27;[36muser selects any &amp;#27;[0m&amp;#27;[36m&amp;#27;[1m2&amp;#27;[0m&amp;#27;[36m add ons&amp;#27;[0m                                                                               &amp;#27;[90m# org.retail.com.StepDefinitions.MyStepdefs.userSelectsAnyAddOns(int)&amp;#27;[0m
+  &amp;#27;[36mAnd &amp;#27;[0m&amp;#27;[36muser validates all details – Date, no of nights, room type, rate, add on (extra services charges), total&amp;#27;[0m &amp;#27;[90m# org.retail.com.StepDefinitions.MyStepdefs.userValidatesAllDetailsDateNoOfNightsRoomTypeRateAddOnExtraServicesChargesTotal()&amp;#27;[0m
+  &amp;#27;[36mAnd &amp;#27;[0m&amp;#27;[36muser adds traveler details and payment method to CC&amp;#27;[0m                                                      &amp;#27;[90m# org.retail.com.StepDefinitions.MyStepdefs.userAddsTravelerDetailsAndPaymentMethodToCC()&amp;#27;[0m
+  &amp;#27;[36mWhen &amp;#27;[0m&amp;#27;[36muser uses a dummy Visa CC and complete payment&amp;#27;[0m                                                          &amp;#27;[90m# org.retail.com.StepDefinitions.MyStepdefs.userUsesADummyVisaCCAndCompletePayment()&amp;#27;[0m
+  &amp;#27;[36mThen &amp;#27;[0m&amp;#27;[36muser validates Booking complete msg&amp;#27;[0m                                                                     &amp;#27;[90m# org.retail.com.StepDefinitions.MyStepdefs.userValidatesBookingCompleteMsg()&amp;#27;[0m
+
+    Embedding _T_C___0_1_:_ _T_o_ _v_e_r_i_f_y_ _i_f_ _a_n_ _E_x_p_e_n_s_i_v_e_ _D_e_l_u_x_e_ _R_o_o_m_ _c_a_n_ _b_e_ _b_o_o_k_e_d_ [image/png 1438759 bytes]
+
+</system-out>
+    <system-err>Starting Microsoft Edge WebDriver 105.0.1343.53 (3a47f00402d579c8ba1fad7e143f9d73831b6765) on port 61492
+To submit feedback, report a bug, or suggest new features, please visit https://github.com/MicrosoftEdge/EdgeWebDriver
+
+Only local connections are allowed.
+Please see https://aka.ms/WebDriverSecurity for suggestions on keeping Microsoft Edge WebDriver safe.
+
+Microsoft Edge WebDriver was started successfully.
+Oct 07, 2022 12:25:58 PM org.openqa.selenium.remote.ProtocolHandshake createSession
+INFO: Detected upstream dialect: W3C
+Oct 07, 2022 12:25:58 PM org.openqa.selenium.devtools.CdpVersionFinder findNearestMatch
+WARNING: Unable to find an exact match for CDP version 105, so returning the closest version found: 104
+Oct 07, 2022 12:25:58 PM org.openqa.selenium.devtools.CdpVersionFinder findNearestMatch
+INFO: Found CDP implementation for version 105 of 104
+</system-err>
+  </testcase>
+  <testcase classname="Verify a Booking can be made and validate booking message" name="TC_01: To verify if an Expensive Deluxe Room can be booked #3" time="23.224">
+    <failure message="Deluxe Appartment is not Available for the selected Booking Date: 06-12-2022Expected condition failed: waiting for visibility of Proxy element for: DefaultElementLocator &apos;By.xpath: //h2[contains(text(),&apos;Deluxe&apos;)]//following::table//h4[contains(text(),&apos;Rack Rate Standard&apos;)]//following::span/a&apos; (tried for 10 second(s) with 500 milliseconds interval)" type="java.lang.AssertionError">java.lang.AssertionError: Deluxe Appartment is not Available for the selected Booking Date: 06-12-2022Expected condition failed: waiting for visibility of Proxy element for: DefaultElementLocator &apos;By.xpath: //h2[contains(text(),&apos;Deluxe&apos;)]//following::table//h4[contains(text(),&apos;Rack Rate Standard&apos;)]//following::span/a&apos; (tried for 10 second(s) with 500 milliseconds interval)
+	at org.junit.Assert.fail(Assert.java:89)
+	at org.retail.com.Pages.BasePage.logFail(BasePage.java:42)
+	at org.retail.com.Pages.HomePage.selectRoomType(HomePage.java:123)
+	at org.retail.com.StepDefinitions.MyStepdefs.userSelectsUnderDeluxeApartmentSelectTheMostExpensivePackage(MyStepdefs.java:27)
+	at ✽.user selects Under Deluxe Apartment, select the most expensive package(file:///C:/Users/Sivaprakash.R/IdeaProjects/Testproj/src/test/resources/org/retail/com/Features/Login.feature:9)
+</failure>
+    <system-out>
+@UITest @testcaseID=TC_01
+Scenario Outline: TC_01: To verify if an Expensive Deluxe Room can be booked                                   &amp;#27;[90m# src/test/resources/org/retail/com/Features/Login.feature:20&amp;#27;[0m
+
+    Embedding Application URL is launched [text/plain 27 bytes]
+
+  &amp;#27;[32mGiven &amp;#27;[0m&amp;#27;[32muser navigates to the login page&amp;#27;[0m                                                                       &amp;#27;[90m# org.retail.com.StepDefinitions.MyStepdefs.user_navigates_to_the_login_page()&amp;#27;[0m
+06-12-2022 is the Booking Date
+
+    Embedding Booking Date is: 06-12-2022 [text/plain 27 bytes]
+
+  &amp;#27;[32mAnd &amp;#27;[0m&amp;#27;[32muser selects future date days &amp;#27;[0m&amp;#27;[32m&amp;#27;[1m&quot;60&quot;&amp;#27;[0m&amp;#27;[32m, and number of rooms and start the booking process&amp;#27;[0m                    &amp;#27;[90m# org.retail.com.StepDefinitions.MyStepdefs.userSelectAValidDateAndNumberOfRoomsAndStartTheBookingProcess(java.lang.String)&amp;#27;[0m
+Deluxe Appartment is not Available for the selected Booking Date
+
+    Embedding Deluxe Appartment is not Available for the selected Booking Date: 06-12-2022Expected condition failed: waiting for visibility of Proxy element for: DefaultElementLocator &apos;By.xpath: //h2[contains(text(),&apos;Deluxe&apos;)]//following::table//h4[contains(text(),&apos;Rack Rate Standard&apos;)]//following::span/a&apos; (tried for 10 second(s) with 500 milliseconds interval) [text/plain 349 bytes]
+
+
+    Embedding Failed Screenshot [image/png 1438759 bytes]
+
+  &amp;#27;[31mAnd &amp;#27;[0m&amp;#27;[31muser selects Under Deluxe Apartment, select the most expensive package&amp;#27;[0m                                   &amp;#27;[90m# org.retail.com.StepDefinitions.MyStepdefs.userSelectsUnderDeluxeApartmentSelectTheMostExpensivePackage()&amp;#27;[0m
+      &amp;#27;[31mjava.lang.AssertionError: Deluxe Appartment is not Available for the selected Booking Date: 06-12-2022Expected condition failed: waiting for visibility of Proxy element for: DefaultElementLocator &apos;By.xpath: //h2[contains(text(),&apos;Deluxe&apos;)]//following::table//h4[contains(text(),&apos;Rack Rate Standard&apos;)]//following::span/a&apos; (tried for 10 second(s) with 500 milliseconds interval)
+	at org.junit.Assert.fail(Assert.java:89)
+	at org.retail.com.Pages.BasePage.logFail(BasePage.java:42)
+	at org.retail.com.Pages.HomePage.selectRoomType(HomePage.java:123)
+	at org.retail.com.StepDefinitions.MyStepdefs.userSelectsUnderDeluxeApartmentSelectTheMostExpensivePackage(MyStepdefs.java:27)
+	at ✽.user selects Under Deluxe Apartment, select the most expensive package(file:///C:/Users/Sivaprakash.R/IdeaProjects/Testproj/src/test/resources/org/retail/com/Features/Login.feature:9)
+&amp;#27;[0m
+  &amp;#27;[36mAnd &amp;#27;[0m&amp;#27;[36muser selects any &amp;#27;[0m&amp;#27;[36m&amp;#27;[1m2&amp;#27;[0m&amp;#27;[36m add ons&amp;#27;[0m                                                                               &amp;#27;[90m# org.retail.com.StepDefinitions.MyStepdefs.userSelectsAnyAddOns(int)&amp;#27;[0m
+  &amp;#27;[36mAnd &amp;#27;[0m&amp;#27;[36muser validates all details – Date, no of nights, room type, rate, add on (extra services charges), total&amp;#27;[0m &amp;#27;[90m# org.retail.com.StepDefinitions.MyStepdefs.userValidatesAllDetailsDateNoOfNightsRoomTypeRateAddOnExtraServicesChargesTotal()&amp;#27;[0m
+  &amp;#27;[36mAnd &amp;#27;[0m&amp;#27;[36muser adds traveler details and payment method to CC&amp;#27;[0m                                                      &amp;#27;[90m# org.retail.com.StepDefinitions.MyStepdefs.userAddsTravelerDetailsAndPaymentMethodToCC()&amp;#27;[0m
+  &amp;#27;[36mWhen &amp;#27;[0m&amp;#27;[36muser uses a dummy Visa CC and complete payment&amp;#27;[0m                                                          &amp;#27;[90m# org.retail.com.StepDefinitions.MyStepdefs.userUsesADummyVisaCCAndCompletePayment()&amp;#27;[0m
+  &amp;#27;[36mThen &amp;#27;[0m&amp;#27;[36muser validates Booking complete msg&amp;#27;[0m                                                                     &amp;#27;[90m# org.retail.com.StepDefinitions.MyStepdefs.userValidatesBookingCompleteMsg()&amp;#27;[0m
+
+    Embedding _T_C___0_1_:_ _T_o_ _v_e_r_i_f_y_ _i_f_ _a_n_ _E_x_p_e_n_s_i_v_e_ _D_e_l_u_x_e_ _R_o_o_m_ _c_a_n_ _b_e_ _b_o_o_k_e_d_ [image/png 1438759 bytes]
+
+</system-out>
+    <system-err>Starting Microsoft Edge WebDriver 105.0.1343.53 (3a47f00402d579c8ba1fad7e143f9d73831b6765) on port 53128
+To submit feedback, report a bug, or suggest new features, please visit https://github.com/MicrosoftEdge/EdgeWebDriver
+
+Only local connections are allowed.
+Please see https://aka.ms/WebDriverSecurity for suggestions on keeping Microsoft Edge WebDriver safe.
+
+Microsoft Edge WebDriver was started successfully.
+Oct 07, 2022 12:26:21 PM org.openqa.selenium.remote.ProtocolHandshake createSession
+INFO: Detected upstream dialect: W3C
+Oct 07, 2022 12:26:21 PM org.openqa.selenium.devtools.CdpVersionFinder findNearestMatch
+WARNING: Unable to find an exact match for CDP version 105, so returning the closest version found: 104
+Oct 07, 2022 12:26:21 PM org.openqa.selenium.devtools.CdpVersionFinder findNearestMatch
+INFO: Found CDP implementation for version 105 of 104
+</system-err>
+  </testcase>
+  <testcase classname="Verify a Booking can be made and validate booking message" name="TC_01: To verify if an Expensive Deluxe Room can be booked #4" time="22.385">
+    <failure message="Deluxe Appartment is not Available for the selected Booking Date: 15-01-2023Expected condition failed: waiting for visibility of Proxy element for: DefaultElementLocator &apos;By.xpath: //h2[contains(text(),&apos;Deluxe&apos;)]//following::table//h4[contains(text(),&apos;Rack Rate Standard&apos;)]//following::span/a&apos; (tried for 10 second(s) with 500 milliseconds interval)" type="java.lang.AssertionError">java.lang.AssertionError: Deluxe Appartment is not Available for the selected Booking Date: 15-01-2023Expected condition failed: waiting for visibility of Proxy element for: DefaultElementLocator &apos;By.xpath: //h2[contains(text(),&apos;Deluxe&apos;)]//following::table//h4[contains(text(),&apos;Rack Rate Standard&apos;)]//following::span/a&apos; (tried for 10 second(s) with 500 milliseconds interval)
+	at org.junit.Assert.fail(Assert.java:89)
+	at org.retail.com.Pages.BasePage.logFail(BasePage.java:42)
+	at org.retail.com.Pages.HomePage.selectRoomType(HomePage.java:123)
+	at org.retail.com.StepDefinitions.MyStepdefs.userSelectsUnderDeluxeApartmentSelectTheMostExpensivePackage(MyStepdefs.java:27)
+	at ✽.user selects Under Deluxe Apartment, select the most expensive package(file:///C:/Users/Sivaprakash.R/IdeaProjects/Testproj/src/test/resources/org/retail/com/Features/Login.feature:9)
+</failure>
+    <system-out>
+@UITest @testcaseID=TC_01
+Scenario Outline: TC_01: To verify if an Expensive Deluxe Room can be booked                                   &amp;#27;[90m# src/test/resources/org/retail/com/Features/Login.feature:21&amp;#27;[0m
+
+    Embedding Application URL is launched [text/plain 27 bytes]
+
+  &amp;#27;[32mGiven &amp;#27;[0m&amp;#27;[32muser navigates to the login page&amp;#27;[0m                                                                       &amp;#27;[90m# org.retail.com.StepDefinitions.MyStepdefs.user_navigates_to_the_login_page()&amp;#27;[0m
+15-01-2023 is the Booking Date
+
+    Embedding Booking Date is: 15-01-2023 [text/plain 27 bytes]
+
+  &amp;#27;[32mAnd &amp;#27;[0m&amp;#27;[32muser selects future date days &amp;#27;[0m&amp;#27;[32m&amp;#27;[1m&quot;100&quot;&amp;#27;[0m&amp;#27;[32m, and number of rooms and start the booking process&amp;#27;[0m                   &amp;#27;[90m# org.retail.com.StepDefinitions.MyStepdefs.userSelectAValidDateAndNumberOfRoomsAndStartTheBookingProcess(java.lang.String)&amp;#27;[0m
+Deluxe Appartment is not Available for the selected Booking Date
+
+    Embedding Deluxe Appartment is not Available for the selected Booking Date: 15-01-2023Expected condition failed: waiting for visibility of Proxy element for: DefaultElementLocator &apos;By.xpath: //h2[contains(text(),&apos;Deluxe&apos;)]//following::table//h4[contains(text(),&apos;Rack Rate Standard&apos;)]//following::span/a&apos; (tried for 10 second(s) with 500 milliseconds interval) [text/plain 349 bytes]
+
+
+    Embedding Failed Screenshot [image/png 1438759 bytes]
+
+  &amp;#27;[31mAnd &amp;#27;[0m&amp;#27;[31muser selects Under Deluxe Apartment, select the most expensive package&amp;#27;[0m                                   &amp;#27;[90m# org.retail.com.StepDefinitions.MyStepdefs.userSelectsUnderDeluxeApartmentSelectTheMostExpensivePackage()&amp;#27;[0m
+      &amp;#27;[31mjava.lang.AssertionError: Deluxe Appartment is not Available for the selected Booking Date: 15-01-2023Expected condition failed: waiting for visibility of Proxy element for: DefaultElementLocator &apos;By.xpath: //h2[contains(text(),&apos;Deluxe&apos;)]//following::table//h4[contains(text(),&apos;Rack Rate Standard&apos;)]//following::span/a&apos; (tried for 10 second(s) with 500 milliseconds interval)
+	at org.junit.Assert.fail(Assert.java:89)
+	at org.retail.com.Pages.BasePage.logFail(BasePage.java:42)
+	at org.retail.com.Pages.HomePage.selectRoomType(HomePage.java:123)
+	at org.retail.com.StepDefinitions.MyStepdefs.userSelectsUnderDeluxeApartmentSelectTheMostExpensivePackage(MyStepdefs.java:27)
+	at ✽.user selects Under Deluxe Apartment, select the most expensive package(file:///C:/Users/Sivaprakash.R/IdeaProjects/Testproj/src/test/resources/org/retail/com/Features/Login.feature:9)
+&amp;#27;[0m
+  &amp;#27;[36mAnd &amp;#27;[0m&amp;#27;[36muser selects any &amp;#27;[0m&amp;#27;[36m&amp;#27;[1m2&amp;#27;[0m&amp;#27;[36m add ons&amp;#27;[0m                                                                               &amp;#27;[90m# org.retail.com.StepDefinitions.MyStepdefs.userSelectsAnyAddOns(int)&amp;#27;[0m
+  &amp;#27;[36mAnd &amp;#27;[0m&amp;#27;[36muser validates all details – Date, no of nights, room type, rate, add on (extra services charges), total&amp;#27;[0m &amp;#27;[90m# org.retail.com.StepDefinitions.MyStepdefs.userValidatesAllDetailsDateNoOfNightsRoomTypeRateAddOnExtraServicesChargesTotal()&amp;#27;[0m
+  &amp;#27;[36mAnd &amp;#27;[0m&amp;#27;[36muser adds traveler details and payment method to CC&amp;#27;[0m                                                      &amp;#27;[90m# org.retail.com.StepDefinitions.MyStepdefs.userAddsTravelerDetailsAndPaymentMethodToCC()&amp;#27;[0m
+  &amp;#27;[36mWhen &amp;#27;[0m&amp;#27;[36muser uses a dummy Visa CC and complete payment&amp;#27;[0m                                                          &amp;#27;[90m# org.retail.com.StepDefinitions.MyStepdefs.userUsesADummyVisaCCAndCompletePayment()&amp;#27;[0m
+  &amp;#27;[36mThen &amp;#27;[0m&amp;#27;[36muser validates Booking complete msg&amp;#27;[0m                                                                     &amp;#27;[90m# org.retail.com.StepDefinitions.MyStepdefs.userValidatesBookingCompleteMsg()&amp;#27;[0m
+
+    Embedding _T_C___0_1_:_ _T_o_ _v_e_r_i_f_y_ _i_f_ _a_n_ _E_x_p_e_n_s_i_v_e_ _D_e_l_u_x_e_ _R_o_o_m_ _c_a_n_ _b_e_ _b_o_o_k_e_d_ [image/png 1438759 bytes]
+
+</system-out>
+    <system-err>Starting Microsoft Edge WebDriver 105.0.1343.53 (3a47f00402d579c8ba1fad7e143f9d73831b6765) on port 53737
+To submit feedback, report a bug, or suggest new features, please visit https://github.com/MicrosoftEdge/EdgeWebDriver
+
+Only local connections are allowed.
+Please see https://aka.ms/WebDriverSecurity for suggestions on keeping Microsoft Edge WebDriver safe.
+
+Microsoft Edge WebDriver was started successfully.
+Oct 07, 2022 12:26:44 PM org.openqa.selenium.remote.ProtocolHandshake createSession
+INFO: Detected upstream dialect: W3C
+Oct 07, 2022 12:26:44 PM org.openqa.selenium.devtools.CdpVersionFinder findNearestMatch
+WARNING: Unable to find an exact match for CDP version 105, so returning the closest version found: 104
+Oct 07, 2022 12:26:44 PM org.openqa.selenium.devtools.CdpVersionFinder findNearestMatch
+INFO: Found CDP implementation for version 105 of 104
+</system-err>
+  </testcase>
+  <testcase classname="Verify a Booking can be made and validate booking message" name="TC_01: To verify if an Expensive Deluxe Room can be booked #5" time="20.876"/>
+</testsuite>

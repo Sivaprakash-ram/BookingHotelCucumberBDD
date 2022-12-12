@@ -9,9 +9,13 @@ import org.openqa.selenium.TakesScreenshot;
 import org.openqa.selenium.WebDriver;
 import org.openqa.selenium.chrome.ChromeDriver;
 import org.openqa.selenium.edge.EdgeDriver;
+import org.openqa.selenium.remote.DesiredCapabilities;
+import org.openqa.selenium.remote.RemoteWebDriver;
+
 import java.io.File;
 import java.io.FileInputStream;
 import java.io.IOException;
+import java.net.URL;
 import java.time.Instant;
 import java.time.ZoneId;
 import java.time.ZonedDateTime;
@@ -46,14 +50,33 @@ public class BaseUtilities implements Constants {
         BaseUtilities.scenario = scenario;
         String webdriver = System.getProperty("browser", "edge");
         try {
-            if ("chrome".equals(webdriver)) {
+            if ("seleniumhubchrome".equals(webdriver)) {
+                WebDriverManager.chromedriver().setup();
+                DesiredCapabilities cap = new DesiredCapabilities();
+                cap.setCapability("browserName" , "chrome");
+                driver = new RemoteWebDriver(new URL("http://172.31.240.1:4444/wd/hub"), cap);
+                driver.manage().window().maximize();
+                driver.manage().deleteAllCookies();
+                driver.manage().timeouts().pageLoadTimeout(30, TimeUnit.SECONDS);
+                return;
+            } else if ("chrome".equals(webdriver)) {
                 WebDriverManager.chromedriver().setup();
                 driver = new ChromeDriver();
                 driver.manage().window().maximize();
                 driver.manage().deleteAllCookies();
                 driver.manage().timeouts().pageLoadTimeout(30, TimeUnit.SECONDS);
                 return;
-            } else if ("edge".equals(webdriver)) {
+            } else if ("seleniumhubedge".equals(webdriver)) {
+                WebDriverManager.edgedriver().setup();
+                DesiredCapabilities cap = new DesiredCapabilities();
+                cap.setCapability("browserName" , "MicrosoftEdge");
+                driver = new RemoteWebDriver(new URL("http://172.31.240.1:4444/wd/hub"), cap);
+                driver.manage().window().maximize();
+                driver.manage().deleteAllCookies();
+                driver.manage().timeouts().pageLoadTimeout(30, TimeUnit.SECONDS);
+                return;
+            }
+            else if ("edge".equals(webdriver)) {
                 WebDriverManager.edgedriver().setup();
                 driver = new EdgeDriver();
                 driver.manage().window().maximize();
